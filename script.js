@@ -5,15 +5,22 @@ $(function(){
     search: true, // 検索
     sort: true,  // ソート
     pagination: { // ページネーション
-      limit: 25
+      limit: 15
     },
     style: {
-      td: {
-        border: '1px solid #ccc'
-      },
-      table: {
-        'font-size': '20px'
-      }
+        table: {
+          border: '1px solid #ccc',
+          'font-size': '18px'
+        },
+        th: {
+          'background-color': '#FF6F61',
+          color: '#000',
+          'border-bottom': '3px solid #ccc',
+          'text-align': 'center'
+        },
+        td: {
+          'text-align': 'center',
+        }
     },
     data: [
       ["傀異化した骨/堅骨", "アオアシラ", "火", "EX★1"], 
